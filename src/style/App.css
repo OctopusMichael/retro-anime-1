@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(10, 10, 10, 0.979);
+  
+}
+
+main{
+  background-color: #6900ee;
+  max-width: 1366px;
+  margin: 20px auto;
+  border-radius: 50px;
+ 
+  
+
+}
+
+#hero-section {
+  background-image: url(../assets/images/hero.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#festival {
+  background-image: url(../assets//images/Festival.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#banner {
+  background-image: url(../assets//images/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#layer {
+  background-image: url(../assets//images/layer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#btn {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
